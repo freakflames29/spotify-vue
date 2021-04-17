@@ -5,11 +5,18 @@
   box-sizing: border-box;
   font-family: "Montserrat", Arial;
 }
+header
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .header {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   height: 90px;
   display: flex;
+
   /* justify-content: space-around; */
 }
 .logo__header {
