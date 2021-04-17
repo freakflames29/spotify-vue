@@ -38,7 +38,7 @@ export default {
   width: 20%;
   padding: 15px;
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .sub__btn:hover{
   background-color: #616467;

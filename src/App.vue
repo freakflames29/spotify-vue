@@ -4,6 +4,7 @@
   <Home/>
   <SubHero/>
   <YourMusic/>
+  <Footer/>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import Header from './components/Header.vue'
 import Home from './components/Home.vue'
 import SubHero from './components/SubHero.vue'
 import YourMusic from './components/YourMusic.vue'
+import Footer from './components/Footer.vue'
 import './App.css'
 
 export default {
@@ -19,7 +21,8 @@ export default {
     Header,
     Home,
     SubHero,
-    YourMusic
+    YourMusic,
+    Footer
   }
 }
 </script>

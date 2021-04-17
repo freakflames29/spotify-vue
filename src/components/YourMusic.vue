@@ -30,6 +30,7 @@ export default {
   align-items: center;
   /* margin-top: 50px; */
   flex-wrap: wrap;
+  
 }
 
 </style>
