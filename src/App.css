@@ -12,7 +12,7 @@ header
   width: 100%;
 }
 .header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 10px;
   height: 90px;
   display: flex;
@@ -68,5 +68,19 @@ header
 .nav__link:hover,
 .profile__header > span:hover
 {
-  color: #3A9844;
+  color: #1db954;
+}
+.btn {
+  margin-top: 20px;
+  color: #fff;
+  padding: 20px;
+  width: 25%;
+  border-radius: 50px;
+  /* border: none; */
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
 }

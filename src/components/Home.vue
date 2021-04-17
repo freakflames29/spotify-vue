@@ -57,7 +57,8 @@ export default {
   font-size: 2.5em;
 }
 .home__terms {
-  margin-top: -20px;
+  margin-top: -30px;
+  /* margin-bottom: 30px; */
   color: #fff;
   text-align: center;
   font-size: 15px;
