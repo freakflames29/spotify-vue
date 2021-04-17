@@ -32,6 +32,7 @@ export default {
   min-width: 27%;
   transition: 0.25s ease;
   text-align: center;
+  cursor: pointer;
 }
 .music .music__banner {
   width: 100%;
