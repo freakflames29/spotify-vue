@@ -12,7 +12,6 @@
       * Terms and conditions apply. Open only to users who haven't already tried
       Premium.
     </span>
-
   </div>
 </template>
 
@@ -24,7 +23,7 @@ export default {
 
 <style lang="css" scoped>
 .home__background {
-  background-color: #F3C05B;
+  background-color: #f3c05b;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -45,12 +44,13 @@ export default {
   letter-spacing: 1.5px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.5s ease;
 }
 .home__button {
   background-color: #1db954;
 }
-.home__button:hover{
-  background-color: #00bc42;
+.home__button:hover {
+  background-color: #1ed760;
 }
 .home__text {
   margin-top: 50px;
