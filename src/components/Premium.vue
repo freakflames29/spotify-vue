@@ -16,10 +16,12 @@
   btn='get mini'
   :show='btwo'
    />
+   <Premium_features />
 </template>
 
 <script>
 import Prem_Home from "./Prem_Home";
+import Premium_features from "./Premium_features";
 export default {
   name: "Premium",
   data()
@@ -30,7 +32,8 @@ export default {
     }
   },
   components: {
-    Prem_Home
+    Prem_Home,
+    Premium_features
   }
 };
 </script>
