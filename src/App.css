@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900;600;100;200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ header
 .link__container .nav__link {
   margin-right: 30px;
 }
-.header .logo__header > img {
+.header .logo__header  img {
   width: 166px;
   margin-top: 7px;
   margin-left: 70px;
@@ -85,4 +85,7 @@ header
   font-weight: bold;
   cursor: pointer;
   transition: 0.5s ease;
+}
+.mtop{
+  margin-top: 100px;
 }

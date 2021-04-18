@@ -3,12 +3,13 @@
 
     <div class="header">
         <div class="logo__header">
-          <img src="../assets/slogo.png" alt="header__log"/>
+          <router-link to='/'><img src="../assets/slogo.png" alt="header__log"/></router-link>
+
         </div>
 
       <div class="navlink__header">
           <div class="link__container">
-              <a href="#"><div class="nav__link">Premium</div></a>
+              <router-link to='/premium'><div class="nav__link">Premium</div></router-link>
               <a href="#"><div class="nav__link">Support</div></a>
               <a href="#"><div class="nav__link">Download</div></a>|
           </div>

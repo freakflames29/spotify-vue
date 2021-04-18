@@ -61,6 +61,6 @@ export default {
   /* margin-bottom: 30px; */
   color: #fff;
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 </style>
