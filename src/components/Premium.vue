@@ -17,11 +17,13 @@
   :show='btwo'
    />
    <Premium_features />
+   <ConnetMusic />
 </template>
 
 <script>
 import Prem_Home from "./Prem_Home";
 import Premium_features from "./Premium_features";
+import ConnetMusic from "./ConnetMusic";
 export default {
   name: "Premium",
   data()
@@ -33,7 +35,8 @@ export default {
   },
   components: {
     Prem_Home,
-    Premium_features
+    Premium_features,
+    ConnetMusic
   }
 };
 </script>
