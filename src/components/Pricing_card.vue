@@ -9,7 +9,7 @@
           <li>{{lthree}}</li>
           <li v-if='lfive'>{{lfour}}</li>
           <li v-if='lfive'>{{lfive}}</li>
-        </ul>
+        </ul>   
 
         <button type="button" class="btn view">view plans</button>
         <span class="terms">Terms and conditions apply.</span>
