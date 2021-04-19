@@ -41,6 +41,13 @@
       />
     </div>
   </div>
+  <div class="discount">
+    <div class="content">
+      <h2>Special discount for eligible students in university</h2>
+      <button type="button" class="btn cbtn">learn <br> more</button>
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -75,4 +82,43 @@ span {
   display: flex;
   width: 80%;
 }
+.discount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 1px solid #000; */
+  margin-bottom: 20px;
+  /* width:auto; */
+}
+.discount .content{
+  display: flex;
+  padding: 10px;
+  /* border: 2px solid red; */
+  justify-content:space-around;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.content h2
+{
+  width: 60%;
+}
+.cbtn
+{
+  background-color: #fff;
+  color: #000;
+  border: none;
+  align-items: center;
+  transition: none;
+}
+.cbtn:hover
+{
+  transform: scale(1.05);
+}
+.cbtn:active
+{
+  border: 3px solid #000;
+}
+
 </style>
