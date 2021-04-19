@@ -1,7 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <Header />
-    <router-view></router-view>\
+    <router-view></router-view>
   <Footer/>
 </template>
 

@@ -18,12 +18,14 @@
    />
    <Premium_features />
    <ConnetMusic />
+   <Pricing />
 </template>
 
 <script>
 import Prem_Home from "./Prem_Home";
 import Premium_features from "./Premium_features";
 import ConnetMusic from "./ConnetMusic";
+import Pricing from "./Pricing";
 export default {
   name: "Premium",
   data()
@@ -36,7 +38,8 @@ export default {
   components: {
     Prem_Home,
     Premium_features,
-    ConnetMusic
+    ConnetMusic,
+    Pricing
   }
 };
 </script>
